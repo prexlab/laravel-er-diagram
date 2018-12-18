@@ -4,7 +4,7 @@
 
 ![image.png](https://qiita-image-store.s3.amazonaws.com/0/255465/babf59b5-0b4c-9984-8e2a-36c81194730f.png)
 
-表示系は、まるっと Ondřej Žára さんの「WWW SQL Designer」を利用しています
+表示系は、まるっと Ondřej Žára さんの「WWW SQL Designer」を利用しています  
 http://ondras.zarovi.cz/#projects
 
 # 使い方
