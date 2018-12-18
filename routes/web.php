@@ -1,11 +1,11 @@
 <?php
 
-Route::group(['prefix' => 'dev'], function () {
+Route::group(['prefix' => 'er'], function () {
     
-    Route::get('er/main/{entity}', 'ER\ERDiagramController@main');
-    Route::get('er/xml/{entity}', 'ER\ERDiagramController@xml');
+    Route::get('main/{entity}', 'ER\ERDiagramController@main');
+    Route::get('xml/{entity}', 'ER\ERDiagramController@xml');
 
-    Route::get( 'er/all.js', function(){
+    Route::get( 'all.js', function(){
 
         $jss = ["oz.js",
             "config.js",
@@ -35,7 +35,7 @@ Route::group(['prefix' => 'dev'], function () {
             ->header('Content-Type', 'application/javascript');
     });
 
-    Route::get( 'er/{path}.{ext}', function( $path, $ext ){
+    Route::get( '{path}.{ext}', function( $path, $ext ){
 
         \Debugbar::disable();
 
