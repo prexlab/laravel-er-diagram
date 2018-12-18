@@ -17,8 +17,8 @@ http://ondras.zarovi.cz/#projects
 
 ## ブラウザアクセス
 
-http://localhost/er/main/Hoge 
-(Hoge は Entity 名) のような形式で、ブラウザにアクセスしてください。
+http://localhost/er/main/Hoge  
+(Hoge は Entity 名) のような形式で、ブラウザにアクセスしてください。  
 Hoge を起点としたER図が生成されます。
 
 各エンティティをクリックすると、リンク線が太字になってわかりやすくなります。
